@@ -1,0 +1,25 @@
+git clone https://github.com/dbarnett/python-helloworld.git  only first time
+
+--setup our useraccount in your laptop
+git config --global user.name "AnjaliNarneni" 
+
+git config --global user.email "narnenianjalirao@gmail.com"
+
+
+
+ git config --list --show-origin
+
+create a new repository on the command line
+
+echo "# samplehello" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AnjaliNarneni/samplehello.git
+git push -u origin main
+push an existing repository from the command line
+
+git remote add origin https://github.com/AnjaliNarneni/samplehello.git
+git branch -M main
+git push -u origin main
